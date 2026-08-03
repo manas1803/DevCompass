@@ -1,4 +1,4 @@
-function Stats() {
+function PlayerStats() {
   return (
     <>
       <section>
@@ -9,4 +9,4 @@ function Stats() {
     </>
   );
 }
-export default Stats;
+export default PlayerStats;

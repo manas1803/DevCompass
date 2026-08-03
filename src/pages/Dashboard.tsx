@@ -1,18 +1,19 @@
-import Header from "../sections/Header";
-import Hero from "../sections/Hero";
-import Progress from "../sections/Progress";
-import Stats from "../sections/Stats";
-import TechSelection from "../sections/TechSelection";
+import { dashboardData } from "../data/dashBoardData";
+import Header from "../features/header";
+import Hero from "../features/hero";
+import RoadmapProgress from "../features/roadmap-progress";
+import PlayerStats from "../features/player-stats";
+import WorldSelection from "../features/world-selection";
 
 function Dashboard() {
   return (
     <>
       <Header />
       <main>
-        <Hero />
-        <Progress />
-        <Stats />
-        <TechSelection />
+        <Hero userData={dashboardData.user}/>
+        <RoadmapProgress />
+        <PlayerStats />
+        <WorldSelection />
       </main>
     </>
   );
