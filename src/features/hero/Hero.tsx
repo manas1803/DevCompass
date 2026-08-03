@@ -1,10 +1,10 @@
 import type { HeroProps } from "./Hero.types";
 
-function Hero({userData}: HeroProps) {
+function Hero({username}: HeroProps) {
   return (
     <section>
-          Welcome back {userData.name}!
-          <p>Your next quest</p>{userData.level}
+          Welcome back {username}!
+          <p>Your next quest awaits</p>
         </section>
   );
 }

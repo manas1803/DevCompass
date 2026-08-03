@@ -1,12 +1,19 @@
+import { dashboardData } from "../../data/dashBoardData";
+
 function TechSelection() {
   return (
     <>
       <section>
-          Choose technology
-          <p>Different selection card1 here</p>
-          <p>Different selection card2 here</p>
-          <p>Different selection card3 here</p>
-          <p>Different selection card4 here</p>
+          <div className="worlds-container">
+                  {dashboardData.featuredWorlds.map((world) => (
+                    <div key={world.id} className="world-card">
+                      {world.imageUrl && (
+                        <img src={world.imageUrl} alt={world.name} className="world-image" />
+                      )}
+                      <h3>{world.name}</h3>
+                    </div>
+                  ))}
+                </div>
         </section>
     </>
   );
