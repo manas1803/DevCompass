@@ -1,8 +1,8 @@
-import Header from "../components/Header/Header";
-import Hero from "../components/Hero/Hero";
-import Progress from "../components/Progress/Progress";
-import Stats from "../components/Stats/Stats";
-import TechSelection from "../components/TechSelection/TechSelection";
+import Header from "../sections/Header";
+import Hero from "../sections/Hero";
+import Progress from "../sections/Progress";
+import Stats from "../sections/Stats";
+import TechSelection from "../sections/TechSelection";
 
 function Dashboard() {
   return (
