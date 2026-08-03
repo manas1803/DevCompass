@@ -1,8 +1,8 @@
-function Progress() {
+function RoadmapProgress() {
   return (
     <>
       <section>Progress chart here(Everything from data0)</section>
     </>
   );
 }
-export default Progress;
+export default RoadmapProgress;
