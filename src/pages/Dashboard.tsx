@@ -11,7 +11,7 @@ function Dashboard() {
     <>
       <Header />
       <main>
-        <Hero userData={dashboardData.user}/>
+        <Hero username={dashboardData.user.name}/>
         <PlayerStats />
         <FeaturedWorlds />
         <WorldSelection />
